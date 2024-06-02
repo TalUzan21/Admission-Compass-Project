@@ -1,0 +1,70 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #143056;
+  color: #fff;
+  padding: 18px 30px;
+}
+
+.logo {
+  width: 65px; /* Adjust the width as needed */
+  height: 65px; /* Maintain aspect ratio */
+  margin-right: 20px; /* Add some margin to separate the image from the text */
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+  
+}
+
+/* Default state for nav-link */
+.nav-link {
+  text-decoration: none;
+  position: relative;
+  color: #fff; /* Default link color */
+}
+
+/* ::after pseudo-element for default state (not hovered, not clicked) */
+.nav-link::after {
+  content: '';
+  display: block;
+  width: 100%; /* Full width underline */
+  height: 3px; /* Thickness of the underline */
+  background-color: #a4d4e7; /* Transparent by default */
+  position: absolute;
+  left: 0;
+  bottom: -3px; /* Offset the underline */
+  /* Smooth transition for background color */
+}
+
+/* Hover state for nav-link */
+.nav-link:hover::after {
+  background-color: #a4d4e7; /* Blue underline on hover */
+}
+
+/* Active state for nav-link */
+.nav-link.active-link::after {
+  background-color: #a4d4e7; /* Blue underline when active */
+
+}
+
+
+
+/* Styles for the home link in the header, keeping it white */
+.home-link {
+  text-decoration: none;
+  color: inherit; /* Inherit color from header, which is white */
+  font-size: 30px;
+}

@@ -1,0 +1,502 @@
+.outer2 {
+  background-color: #ffffff;
+  width: 1400px;
+ 
+  margin-top: -150px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  color: #080101;
+
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+
+}
+.outer3 {
+  background-color: #ffffff;
+  width: 1400px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  color: #080101;
+  font-weight: bold;
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  padding-top: 10px; 
+  padding-left: 10px;
+
+}
+.results-container {
+  width: 1400px; /* Adjust width to match outer3 */
+  margin: 0 auto; /* Set left and right margins to auto */
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Adjust gap as needed */
+}
+
+.result {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Adjust gap between items as needed */
+}
+
+.result-item {
+  flex: 0 1 calc(33.33% - 10px); /* Adjust percentage and gap as needed */
+  background-color: #f0f0f0; /* Optional: for better visibility */
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.button-container {
+  width: 1400px;
+  background-color: #EFF1F5;
+ 
+  
+}
+
+.button-container button {
+  background-color: #EFF1F5;
+  width: 466px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  padding-left: 30px;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+}
+
+.button-container button.active-button {
+  background-color: #ffffff;
+  border-bottom: 4px solid #a4d4e7;
+}
+
+.button-container button:hover {
+  background-color: #ffffff;
+}
+
+
+
+form {
+  width: 1400px;
+  
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  margin-top: 30px;
+margin-left: 50px;
+margin-right: 50px;
+  margin-bottom: 30px;
+
+}
+
+select {
+  width: 400px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  padding-left: 30px;
+  text-align: left;
+  
+}
+form button {
+  width: 400px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  padding-left: 30px;
+  text-align: left;
+  
+}
+/* Media query for smaller screens */
+@media (min-width: 1301px) and (max-width: 1600px) {
+  .outer2 {
+    background-color: #ffffff;
+    width: 1100px;
+   
+    margin-top: -150px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: #080101;
+  
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+  
+  }
+  .outer3 {
+    background-color: #ffffff;
+    width: 1100px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: #080101;
+    font-weight: bold;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    padding-top: 10px; 
+    padding-left: 10px;
+  
+  }
+  .results-container {
+    width: 1100px; /* Adjust width to match outer3 */
+  margin: 0 auto; /* Set left and right margins to auto */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adjust gap as needed */
+  }
+  
+  .result {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust gap between items as needed */
+  }
+  
+  .result-item {
+    flex: 0 1 calc(33.33% - 10px); /* Adjust percentage and gap as needed */
+    background-color: #f0f0f0; /* Optional: for better visibility */
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  .button-container {
+    width: 1100px;
+    background-color: #EFF1F5;
+   
+    
+  }
+  
+  .button-container button {
+    background-color: #EFF1F5;
+    width: 366px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    padding-left: 30px;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  
+  }
+  
+  .button-container button.active-button {
+    background-color: #ffffff;
+    border-bottom: 4px solid #a4d4e7;
+  }
+  
+  .button-container button:hover {
+    background-color: #ffffff;
+  }
+  
+  
+  
+  form {
+    width: 1100px;
+    
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    margin-top: 30px;
+
+  margin-right: 50px;
+    margin-bottom: 30px;
+
+  
+  }
+  
+  select {
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    padding-left: 30px;
+    text-align: left;
+    
+  }
+  form button {
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    padding-left: 30px;
+    text-align: left;
+    
+  }
+}
+/* Media query for smaller screens */
+@media (min-width: 1001px) and (max-width: 1300px) {
+
+  .outer2 {
+    background-color: #ffffff;
+    width: 800px;
+   margin-left: -20px;
+    margin-top: -150px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: #080101;
+    
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+  
+  }
+  .outer3 {
+    background-color: #ffffff;
+    width: 800px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: #080101;
+    font-weight: bold;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    padding-top: 10px; 
+    padding-left: 10px;
+  
+  }
+  .results-container {
+    width: 800px; /* Adjust width to match outer3 */
+  margin: 0 auto; /* Set left and right margins to auto */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adjust gap as needed */
+    margin-left: -20px;
+  }
+  
+  .result {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust gap between items as needed */
+  }
+  
+  .result-item {
+    flex: 0 1 calc(33.33% - 10px); /* Adjust percentage and gap as needed */
+    background-color: #f0f0f0; /* Optional: for better visibility */
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  .button-container {
+    width: 800;
+    background-color: #EFF1F5;
+   
+    
+  }
+  
+  .button-container button {
+    background-color: #EFF1F5;
+    width: 266px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    padding-left: 30px;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  
+  }
+  
+  .button-container button.active-button {
+    background-color: #ffffff;
+    border-bottom: 4px solid #a4d4e7;
+  }
+  
+  .button-container button:hover {
+    background-color: #ffffff;
+  }
+  
+  
+  
+  form {
+    width: 800px;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+  
+  }
+  
+  select {
+    width: 220px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    padding-left: 30px;
+    text-align: left;
+    
+  }
+  form button {
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    padding-left: 30px;
+    text-align: left;
+    
+  }
+}
+
+/* Media query for smaller screens */
+@media (max-width: 1000px) {
+
+  .outer2 {
+    background-color: #ffffff;
+    width: 500px;
+   margin-left: -20px;
+    margin-top: -150px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: #080101;
+    
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+  
+  }
+  .outer3 {
+    background-color: #ffffff;
+    width: 500px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: #080101;
+    font-weight: bold;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    padding-top: 10px; 
+    padding-left: 10px;
+  
+  }
+  .results-container {
+    width: 500px; /* Adjust width to match outer3 */
+  margin: 0 auto; /* Set left and right margins to auto */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adjust gap as needed */
+    margin-left: -20px;
+
+  }
+  
+  .result {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust gap between items as needed */
+  }
+  
+  .result-item {
+    flex: 0 1 calc(33.33% - 10px); /* Adjust percentage and gap as needed */
+    background-color: #f0f0f0; /* Optional: for better visibility */
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  .button-container {
+    width: 500;
+    background-color: #EFF1F5;
+   
+    
+  }
+  
+  .button-container button {
+    background-color: #EFF1F5;
+    width: 500px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    padding-left: 30px;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  
+  }
+  
+  .button-container button.active-button {
+    background-color: #ffffff;
+    border-bottom: 4px solid #a4d4e7;
+  }
+  
+  .button-container button:hover {
+    background-color: #ffffff;
+  }
+  
+  
+  
+  form {
+    width: 500px;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left:0px;
+  
+  }
+  
+  select {
+    width: 500px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    padding-left: 30px;
+    text-align: left;
+    
+  }
+  form button {
+    width: 500px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    padding-left: 30px;
+    text-align: left;
+    
+  }
+}
+
+.bagrut p {
+  font-weight: bold;
+}
+
+th {
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+td {
+  padding-right: 10px;
+  word-wrap: break-word; /* Ensure text wraps inside the container */
+  white-space: normal;
+  vertical-align: top;
+  height: 50px;
+}
+
+.styled-input-points {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 50px;
+}
+
+.styled-input-grade {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 80px; /* Adjust the width as needed for the grades input */
+}
+
+.styled-input-electives {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 150px; /* Adjust the width as needed for the grades input */
+}

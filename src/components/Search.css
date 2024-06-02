@@ -1,0 +1,9 @@
+.outer {
+    display: flex;
+    background-color: #EFF1F5;
+    color: #080101;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 70px;
+    padding-bottom: 150px;
+  }
